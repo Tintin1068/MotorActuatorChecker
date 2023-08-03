@@ -5,7 +5,7 @@
 • Instructions :
 
     ‣Installation :
-    1. Download the executable for your OS and in your prefered language.
+    1. Download the executable for your OS and your prefered language.
     2. Run it by double-clicking on the file.
 
     ‣Usage :

@@ -44,8 +44,8 @@ while True:
     div = 4 / n
     C = F * d / 1000 * div
 
-    print(f"Le couple minimal des moteurs sur les vérins SRT100 est de {C:.2f} N.m")
-    print(f"La vitesse de rotation maximale des moteurs est de {RPM:.2f} tours par minute.")
+    print(f"Le couple minimal recommendé du moteur est de {C:.2f} N.m")
+    print(f"La vitesse de rotation maximale recommendée du moteur est de {RPM:.2f} tours par minute.")
 
     answer = input("\nEntrez 'r' pour recommencer ou une autre lettre pour quitter :")
     if answer.lower() == "r":

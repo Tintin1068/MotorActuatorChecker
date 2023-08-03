@@ -1,5 +1,5 @@
 while True:
-    g = 9.81 # Accélération de la pesanteur en m/s²
+    g = 9.81
     p = 5 
     m = float(input("Poids du châssis (en kg) : "))
     s = float(input("Vitesse de déplacement maximale désirée (en mm/s) : "))

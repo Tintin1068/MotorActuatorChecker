@@ -1,11 +1,9 @@
 g = 9.81
-L = float(input("Course du vérin (en mm) : ")) / 1000
 p = 5 
 m = float(input("Poids du châssis (en kg) : "))
 s = float(input("Vitesse de déplacement maximale désirée (en mm/s) : "))
 t = 1
 mu = 0.01
-L = float(input("Course du vérin (en mm) : ")) / 1000
 n = int(input("Nombre de vérins : "))
 k = 0.8
 
@@ -44,5 +42,6 @@ v = s / t / p
 RPM = v * 60
 div = 4 / n
 C = F * d / 1000 * div
+
 print(f"Le couple minimal des moteurs sur les vérins SRT100 est de {C:.2f} N.m")
 print(f"La vitesse de rotation maximale des moteurs est de {RPM:.2f} tours par minute.")

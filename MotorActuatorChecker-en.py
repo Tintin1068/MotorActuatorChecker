@@ -44,8 +44,8 @@ while True:
     div = 4 / n
     C = F * d / 1000 * div
 
-    print(f"The recommended minimal torque is of {C:.2f} N.m")
-    print(f"The recommended maximal rotation speed is of {RPM:.2f} rpm.")
+    print(f"The recommended minimal torque is {C:.2f} N.m")
+    print(f"The recommended maximal rotation speed is {RPM:.2f} rpm.")
 
     answer = input("\nEnter 'R' to restart or another letter to quit : ")
     if answer.lower() == "r" or answer.lower() == "R":

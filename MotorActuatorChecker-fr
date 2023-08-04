@@ -47,8 +47,8 @@ while True:
     print(f"Le couple minimal recommandé par moteur est de {C:.2f} N.m")
     print(f"La vitesse de rotation maximale recommandée par moteur est de {RPM:.2f} tours par minute.")
 
-    answer = input("\nEntrez 'r' pour recommencer ou une autre lettre pour quitter :")
-    if answer.lower() == "r":
+    answer = input("\nEntrez 'R' pour recommencer ou une autre lettre pour quitter : ")
+    if answer.lower() == "r" or answer.lower() == "R":
         continue
     else:
         break

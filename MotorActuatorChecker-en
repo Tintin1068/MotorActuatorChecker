@@ -2,7 +2,7 @@ while True:
     g = 9.81
     p = 5 
     m = float(input("Rig weight (kg) : "))
-    s = float(input("Desired travel speed (mm/s) : "))
+    s = float(input("Desired maximum travel speed (mm/s) : "))
     t = 1
     mu = 0.01
     n = int(input("Number of actuators : "))
